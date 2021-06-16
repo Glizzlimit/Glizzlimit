@@ -17,7 +17,7 @@ local Emojis = { --\\ Before changing or adding an emoji make sure its in the su
     '2309445116/⭐',
     '467473137/⭐',
     '2200137006/👑',   --
-    '1063324780/😈',
+    '103021394/😈',
     '2467780294/⭐',
     '13981127/⭐',
     '2495555925/⭐',
@@ -310,7 +310,7 @@ function swagnames()
         if game.Workspace.Players:FindFirstChild(Player.Name) then
             if not Player.Character.UpperTorso:FindFirstChild('OriginalSize') then 
                 if not string.find(Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName, '%[') then
-                    Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[😎]' .. Player.DisplayName)
+                    Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[⭐]' .. Player.DisplayName)
                 end
             end
         end 
